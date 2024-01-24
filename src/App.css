@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background: #999999;
+}
+
+.box{
+  background: #fff;
+  padding: 30px 120px;
+  width: 380px;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo{
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.box .container h1{
+  margin-bottom: 20px;
+  position: relative;
+  right: 70px;
+  margin-top: 15px;
+}
+
+.box .container button{
+  width: 80%;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content :center;
+  margin: 20px 0;
+  border-radius: 30px;
+  background: transparent;
+  border: 0.5px solid #999;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.box .container .btn-logo{
+  margin-right: 10px;
+}
+
+.box .container .line{
+  height: 0.1px;
+  width: 80%;
+}
+
+.box .container span{
+  display: block;
+  width: 40px;
+  margin: auto;
+  background: #fff;
+  font-size: 20px;
+  margin-top: -14px;
+}
+
+.box .container form input{
+  width: 280px;
+  margin-top: 10px;
+  padding: 20px;
+  background: transparent;
+  border: 0.1px solid #999;
+  outline: 0;
+  border-radius: 4px;
+}
+
+::placeholder{
+  font-weight: 500;
+  color: #333;
+}
+
+.box .container form button{
+  width: 100%;
+  font-weight: 800;
+}
+
+.box .container form .next-btn{
+  background-color: #000;
+  color: #fff;
+}
+
+.box .container p{
+  position: relative;
+  right: 50px;
+}
